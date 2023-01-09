@@ -1,0 +1,65 @@
+.duesBox .duesData {
+    display: flex;
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 16px;
+}
+.duesBox .duesData p {
+    margin-right: 16px;
+}
+.duesBox .duesUsers {
+  display: flex;
+}
+.duesBox .userWrap {
+    display: flex;
+    margin: 16px;
+    align-items: center;
+}
+.duesBox .userWrap p {
+    margin-left: 16px;
+}
+.duesList {
+    display: grid;
+    width: 85%;
+  }
+  .duesList .duesBox {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    color: inherit;
+  }
+  .duesList h4 {
+    margin-bottom: 6px;
+  }
+  .duesList p {
+    color: var(--text-color);
+    font-size: 0.9em;
+  }
+  .duesList ul {
+    margin: 10px 0;
+    display: flex;
+  }
+  .duesList li {
+    margin-right: 10px;
+  }
+.duesList .btn {
+  margin-top: 12px;
+}
+.duesBox .infoDetails {
+  white-space: pre-wrap;
+}
+.duesHeading {
+  position: relative;
+}
+.duesHeading .deleteBtn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+@media only screen and (max-width: 768px) {
+  .duesList {
+    width: 95%;
+    font-size: 1.4em;
+  }
+}

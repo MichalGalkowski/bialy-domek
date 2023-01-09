@@ -1,0 +1,163 @@
+.duesDetails {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  align-items: start;
+  grid-gap: 60px;
+}
+.duesBox {
+  margin-bottom: 40px;
+}
+.duesBox .duesData {
+    display: flex;
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 16px;
+}
+.duesBox .duesData p {
+    margin-right: 16px;
+}
+.duesBox .userBox {
+    display: flex;
+    margin: 16px;
+    align-items: center;
+    border-bottom: 1px solid #d3d3d3;
+}
+.duesBox .userBox p {
+    margin-left: 16px;
+}
+.paymentData {
+  display: flex;
+}
+.paymentData .pay {
+  margin-right: 16px;
+  display: flex;
+}
+.infoContent {
+  margin-top: 24px;
+}
+.pay .updateItem {
+  justify-content: center;
+  margin-top: 0;
+}
+.duesBills h4 {
+  margin-top: 10px;
+}
+.duesList {
+    display: grid;
+  }
+  .duesList .duesBox {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    color: inherit;
+  }
+  .duesList h4 {
+    margin-bottom: 6px;
+  }
+  .duesList p {
+    color: var(--text-color);
+    font-size: 0.9em;
+  }
+  .duesList ul {
+    margin: 10px 0;
+    display: flex;
+  }
+  .duesList li {
+    margin-right: 10px;
+  }
+.duesList .btn {
+  margin-top: 12px;
+  margin-right: 2px;
+}
+.infoContent {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+/* Bills */
+
+.duesBills label {
+  margin-bottom: 0px;
+}
+.duesBills textarea {
+  min-height: 40px;
+  font-size: 1.5em;
+}
+.duesBills h4 {
+  color: var(--text-color);
+}
+.duesBills li {
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid #f2f2f2;
+  margin-top: 20px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+  background: #fff;
+}
+.billAuthor {
+  display: flex;
+  align-items: center;
+  color: var(--title-color);
+}
+.billAuthor .avatar {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.billData {
+  display: flex;
+  margin-right: 10px;
+}
+
+/* comments scrollbar */
+.duesBills {
+  max-height: 800px;
+  overflow: auto;
+  padding-right: 20px;
+  /* firefox scrollbar style */
+  scrollbar-width: 20px;
+  scrollbar-color: #fff #e4e4e4;
+}
+/* Chrome, Edge, and Safari scrollbar styles */
+.duesBills::-webkit-scrollbar {
+  width: 6px;
+}
+.duesBills::-webkit-scrollbar-track {
+  background: #fff;
+}
+.duesBills::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 3px solid #e4e4e4;
+}
+.addBill .btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.userBox .avatar {
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+}
+.duesContent .duesBox .infoBox {
+  display: flex;
+}
+.duesBox .infoDetails {
+  white-space: pre-wrap;
+}
+@media only screen and (max-width: 768px) {
+  .duesDetails {
+    grid-template-columns: 1fr;
+    font-size: 1.4em;
+    margin: 10px;
+  }
+  .duesBox .duesData {
+    display: block;
+  }
+  .duesList ul {
+    display: block;
+  }
+  .paymentData {
+    display: block;
+  }
+}

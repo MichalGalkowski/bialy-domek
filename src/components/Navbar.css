@@ -1,0 +1,88 @@
+.navbar {
+  width: 100%;
+  padding: 33px 0;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 20px -15px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 0px 20px -15px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 20px -15px rgba(66, 68, 90, 1);
+}
+.navbar ul {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar .logo {
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 30px;
+}
+.navbar .navLogo {
+  display: flex;
+  align-items: center;
+}
+.navbar .navlink {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.navbar .settings {
+
+  width: 40px;
+  height: 40px;
+  filter: invert(60%);
+
+}
+.navbar .logo img {
+  margin-right: 10px;
+  width: 100px;
+  align-items: center;
+}
+.navbar .logo h2 {
+  font-family: 'Cardo', 'Serif';
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin-left: 10px;
+  font-size: 20pt;
+}
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.navbar .btn {
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding: 16px;
+  }
+  .navbar .logo {
+    display: block;
+  }
+  .navbar .navLogo {
+    margin-left: 60px;
+    display: block;
+  }
+  .navbar .navLogo img {
+    margin-left: 14px;
+    margin-right: auto;
+    width: 80px;
+  }
+  .navbar .navLogo h2 {
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .navbar .navLogo h2 {
+    display: none;
+  }
+}

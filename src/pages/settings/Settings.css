@@ -1,0 +1,67 @@
+.teamWrap {
+    width: 100%;
+}
+.teamHeader {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: var(--primary-color);
+    padding: 14px;
+    color: var(--bg-color);
+    border: 0 solid white;
+    border-radius: 10px 40px 0px 0px;
+}
+.teamHeader h4 {
+    margin-left: 20px;
+}
+.teamHeader .saveBtn {
+    filter: invert(100%);
+    width: 40px;
+    margin-left: 30%;
+    margin-right: 20px;
+}
+.teamTable .tableField {
+    display: flex;
+    padding: 20px;
+}
+.teamTable {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    font-weight:400;
+    font-size: 16px;
+    padding: 16px;
+    color: var(--text-color);
+}
+.teamTable .column {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+}
+.teamTable .column h4 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.column .index {
+    display: flex;
+}
+.tableField .tableValue {
+    display: flex;
+}
+.teamTable .avatar {
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .teamHeader {
+        width: 95%;
+    }
+    .teamTable {
+        display: block;
+        width: 95%;
+    }
+}

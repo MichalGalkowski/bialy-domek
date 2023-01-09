@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+}
+.App .container{
+  flex-grow: 1;
+}
+@media only screen and (max-width: 768px) {
+  .App {
+    display: block;
+  }
+}

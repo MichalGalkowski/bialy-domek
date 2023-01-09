@@ -1,0 +1,31 @@
+.productBox {
+    width: 100%;
+    border-bottom: 1px solid #d3d3d3;
+}
+.productHeading {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+}
+.productHeading .product {
+    display: flex;
+    width: 75%;
+}
+.product .done {
+    cursor: pointer;
+    width: 28px;
+    margin-left: 14px;
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(102%) contrast(119%);
+}
+.product .cart {
+    cursor: pointer;
+    width: 28px;
+    margin-left: 14px;
+    filter: invert(48%) sepia(100%) saturate(4476%) hue-rotate(-16deg) brightness(102%) contrast(112%);
+}
+@media only screen and (max-width: 768px) {
+
+    .product {
+        width: 95%;
+    }
+  }
